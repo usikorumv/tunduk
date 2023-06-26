@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "233195511252",
+    "project_id": "tunduk-1c353",
+    "storage_bucket": "tunduk-1c353.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233195511252:android:dd49a4313270a4563eca41",
+        "android_client_info": {
+          "package_name": "com.use4k.tunduk.tunduk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233195511252-t76khjqcnkeednn21voad1tce1d0ij19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrETC_3xuK_33urBVwbfCTP-hl9p1P2wY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233195511252-t76khjqcnkeednn21voad1tce1d0ij19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
