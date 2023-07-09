@@ -1,11 +1,12 @@
 import 'package:go_router/go_router.dart';
 import 'package:tunduk/features/main/presentation/screens/main_screen.dart';
+import 'package:tunduk/features/main/presentation/screens/splash_screen.dart';
 
 final router = GoRouter(
   routes: [
     GoRoute(
-      path: '/',
-      redirect: (_, __) => MainScreen.routePath,
+      path: '/splash',
+      builder: (_,__) => SplashScreen(),
     ),
     GoRoute(
       path: MainScreen.routePath,
