@@ -13,6 +13,7 @@ class MainScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
+        leadingWidth: 150,
         leading: ElevatedButton.icon(
           onPressed: () {},
           icon: Icon(Icons.login),
@@ -21,7 +22,10 @@ class MainScreen extends StatelessWidget {
         actions: [
           IconButton(
             onPressed: () {},
-            icon: Icon(Icons.menu),
+            icon: Icon(
+              Icons.menu,
+              color: Colors.black,
+            ),
           ),
         ],
       ),

@@ -11,20 +11,25 @@ dependencies:
   flutter:
     sdk: flutter
   go_router: ^8.2.0
+  
 
 dev_dependencies:
   flutter_launcher_icons: ^0.13.1
-  flutter_native_splash: ^2.2.19
+  
   flutter_test:
     sdk: flutter
 
 flutter:
   uses-material-design: true
+  assets:
+  - assets/icons/
 
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/icons/tunduk.png"
+  image_path: "assets/icons/"
 
-flutter_native_splash:
-  color: "#1665C2"
+# flutter_native_splash:
+#   image: assets/icons/tunduk_v2.png
+
+
